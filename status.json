@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "repo": "world-heritage-sites",
+  "checked_date": "2026-08-31",
+  "accessed_date": "2026-08-23",
+  "changed": false,
+  "records": 20,
+  "run_url": "https://github.com/shinyaoguri/heritage-crawler/actions/runs/33334836050"
+}
