@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "repo": "world-heritage-sites",
-  "checked_date": "2026-09-22",
-  "accessed_date": "2026-08-23",
-  "changed": false,
-  "records": 20,
-  "run_url": "https://github.com/shinyaoguri/heritage-crawler/actions/runs/35665629330"
+  "checked_date": "2026-09-28",
+  "accessed_date": "2026-09-28",
+  "changed": true,
+  "records": 21,
+  "run_url": "https://github.com/shinyaoguri/heritage-crawler/actions/runs/36350809692"
 }

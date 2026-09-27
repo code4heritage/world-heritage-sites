@@ -14,17 +14,17 @@
     "publisher": "文化庁",
     "url": "https://kunishitei.bunka.go.jp/",
     "terms_url": "https://kunishitei.bunka.go.jp/top/policy",
-    "accessed_date": "2026-08-23",
-    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年8月23日に利用）\n上記を加工して作成"
+    "accessed_date": "2026-09-28",
+    "attribution": "出典：「国指定文化財等データベース」（文化庁）\n（https://kunishitei.bunka.go.jp/）（2026年9月28日に利用）\n上記を加工して作成"
   },
   "generator": {
     "name": "heritage-crawler",
     "version": "0.1.0"
   },
   "counts": {
-    "records": 20,
-    "files": 12,
-    "with_coordinates": 20
+    "records": 21,
+    "files": 13,
+    "with_coordinates": 21
   },
   "labels": {
     "ledger_id": "台帳ID",
@@ -44,27 +44,29 @@
     "description": "解説文",
     "detailed_description": "詳細解説",
     "has_related_properties": "関連する文化財の有無",
-    "has_photo": "写真の有無"
+    "has_photo": "写真の有無",
+    "source_issue": "データベース側の不具合"
   },
   "fields": {
-    "ledger_id": 20,
-    "managed_id": 20,
-    "category_code": 20,
-    "category_name": 20,
-    "url": 20,
-    "name": 20,
-    "name_kana": 20,
-    "component_assets": 20,
-    "designation_kind": 20,
-    "criteria": 20,
-    "prefecture": 13,
-    "address": 19,
-    "latitude": 20,
-    "longitude": 20,
-    "description": 12,
+    "ledger_id": 21,
+    "managed_id": 21,
+    "category_code": 21,
+    "category_name": 21,
+    "url": 21,
+    "name": 21,
+    "name_kana": 21,
+    "component_assets": 21,
+    "designation_kind": 21,
+    "criteria": 21,
+    "prefecture": 14,
+    "address": 20,
+    "latitude": 21,
+    "longitude": 21,
+    "description": 13,
     "detailed_description": 17,
     "has_related_properties": 20,
-    "has_photo": 20
+    "has_photo": 20,
+    "source_issue": 1
   },
   "facets": {
     "prefecture": {
@@ -74,6 +76,7 @@
       "大阪府": 1,
       "岩手県": 1,
       "島根県": 1,
+      "新潟県": 1,
       "東京都": 1,
       "栃木県": 1,
       "沖縄県": 1,
@@ -103,6 +106,7 @@
       "世界の絹産業の発展に重要な役割を果たした技術革新の主要舞台である。": 1,
       "京都に残された記念工作物に見る一群の建築及び庭園の意匠は、近代以前の日本の物質文化のこの側面における最高の表現である。": 1,
       "京都は、８世紀から１７世紀にかけて、宗教及び非宗教の建築及び庭園の意匠における発展の中心であった。そのため、京都は日本の文化的伝統の形成に決定的な役割を果たし、その結果、１９世紀以降には、特に庭園の分野において世界の他の地域に重大な影響を与えた。": 1,
+      "佐渡島の金山は、世界の他の地域において採鉱等の機械化が進んだ時代に、高度な手工業による採掘と製錬技術を継続したアジアにおける他に類を見ない事例である。徳川幕府が佐渡で導入した管理運営体制と社会・労働組織により、17世紀には世界水準の高品質の金を大量に採掘・加工することが可能になった。これは採掘域と集落構造に反映されている。佐渡島で見つかった鉱床の特徴に基づいて、幕府は鉱石の採掘と加工に最も適した生産組織と方法を適用し統合した。運営の効率を高めるために、集落および採鉱・加工の機能は同じ地域または近接して共存し、その役割を果たしていた。": 1,
       "先史時代における農耕を伴わない定住社会及び複雑な精神文化を示している。": 1,
       "古都奈良の歴史的な記念工作物は、中国や朝鮮半島との文化的交流の結果としてもたらされた日本の建築及び芸術の進化を示す希有な物証であり、その後の（当該分野における）発展にも大きな影響を与えた。": 1,
       "奈良に所在する仏教寺院及び神社は、仏教や神道といった信仰が、今なお独特の精神的な力及び影響を持ち続けていることを示している。": 1,
@@ -132,7 +136,10 @@
       "高品質生糸の大量生産をめぐる日本と世界の相互交流をしめす顕著な見本である。": 1
     },
     "designation_kind": {
-      "登録": 20
+      "登録": 21
+    },
+    "source_issue": {
+      "詳細ページの一部が欠けている": 1
     }
   },
   "files": [
@@ -158,6 +165,12 @@
       "path": "data/13_tokyo.jsonl",
       "area_code": "13",
       "area_name": "東京都",
+      "records": 1
+    },
+    {
+      "path": "data/15_niigata.jsonl",
+      "area_code": "15",
+      "area_name": "新潟県",
       "records": 1
     },
     {
